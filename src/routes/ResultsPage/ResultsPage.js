@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import LogoutButton from '../../components/Login/LogoutButton';
 import './ResultsPage.css';
 //eslint-disable-next-line
 import { ReactComponent as MySvgNight} from '../../nighttime-jungle.svg';
@@ -103,43 +102,46 @@ let scorePercent = Math.floor((score / totalDone) * 100)
     }, []);
 
     return <>
-        <LogoutButton/>
-        <main className = "results-main-area">
-       {/* <MySvgNight className = 'results-background-image-nighttime'/> */}
-          <h1 className='well-done-h1'>Well Done!</h1>
-          <div className="the-card-div">
-        <h2 className='h2-score'>You got {score} correct</h2>
-        <h3 className='h3-encouragement'>{theMessage}</h3>
+          <main className = "results-main-area">
 
-        <div className='the-score-badge'>
-
-          <CircularDeterminate score={score} percentageState={percentageState}/>
-
-          <img className='the-banana-itself' src="banana-line-drawing.png" alt="banana" width="90" height="90"></img>
-
-        </div>
-
-        <div className='score-percentage-container'>
-
-          <h3 className='h3-percentage'>{scorePercent}%</h3>
-
-        </div>
-
-
-
-        <div className='button-container-results'>
-          <nav>
-            <Link to="/" style={{textDecoration: "none"}}>
-              <button className = "map-button">Back to Start</button>
-            </Link>
-          </nav>
-          <nav>
-            <Link to="/activity-intro" style={{textDecoration: "none"}}>
-              <button className = "retry-button">Try Again</button>
-            </Link>
-          </nav>
+          <div className='results-heading-space'>
+            <h1 className='well-done-h1'>Well Done!</h1>
           </div>
-        </div>
-        </main>
+
+          <div className='results-mid-space'>
+            <div className="the-card-div">
+          <h2 className='h2-score'>You got {score} correct</h2>
+          <h3 className='h3-encouragement'>{theMessage}</h3>
+
+          <div className='the-score-badge'>
+
+            <CircularDeterminate score={score} percentageState={percentageState}/>
+
+            <img className='the-banana-itself' src="banana-line-drawing.png" alt="banana" width="90" height="90"></img>
+
+          </div>
+
+          <div className='score-percentage-container'>
+
+            <h3 className='h3-percentage'>{scorePercent}%</h3>
+
+          </div>
+
+          </div>
+
+          <div className='button-container-results'>
+            <nav>
+              <Link to="/" style={{textDecoration: "none"}}>
+                <button className = "map-button">Back to Start</button>
+              </Link>
+            </nav>
+            <nav>
+              <Link to="/activity-intro" style={{textDecoration: "none"}}>
+                <button className = "retry-button">Try Again</button>
+              </Link>
+            </nav>
+            </div>
+          </div>
+          </main>
       </>
   }
