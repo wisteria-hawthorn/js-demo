@@ -49,8 +49,8 @@ return(
                     </nav>
 
                     <nav>
-                        <Link to="/expedition" style={{textDecoration: "none"}} >
-                            <button className='back-button-intro'>Back to Map</button>
+                        <Link to="/" style={{textDecoration: "none"}} >
+                            <button className='back-button-intro'>Back</button>
                         </Link>
                     </nav>
 

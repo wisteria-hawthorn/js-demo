@@ -129,7 +129,7 @@ let scorePercent = Math.floor((score / totalDone) * 100)
 
         <div className='button-container-results'>
           <nav>
-            <Link to="/jungle-intro" style={{textDecoration: "none"}}>
+            <Link to="/" style={{textDecoration: "none"}}>
               <button className = "map-button">Back to Start</button>
             </Link>
           </nav>
