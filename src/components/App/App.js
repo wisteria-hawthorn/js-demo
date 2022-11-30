@@ -39,7 +39,7 @@ function App() {
      
       <Routes>
 
-      <Route path="jungle-intro" element={
+      <Route path="/" element={
           <JungleIntroPage score = {score} setScore = {setScore} clicks = {clicks} setClicks = {setClicks} mismatch={mismatch} setMismatch={setMismatch}/>} />
         
         <Route path="activity-intro" element={
