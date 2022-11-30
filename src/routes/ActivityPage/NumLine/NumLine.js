@@ -1,6 +1,6 @@
 import './NumLine.css'
 import { useState, useEffect } from 'react';
-import Timer from './CountdownTimer';
+
 
 export default function NumLine({score, setScore, clicks, setClicks, mismatch, setMismatch}) {
     

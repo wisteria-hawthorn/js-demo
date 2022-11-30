@@ -1,13 +1,13 @@
 // import { Link } from 'react-router-dom';
-import { React , useEffect, useState } from 'react';
+import { React } from 'react';
 import LogoutButton from '../../components/Login/LogoutButton';
 
 import Timer from '../ActivityPage/NumLine/CountdownTimer.js';
-import { LinearProgBar } from '../LinearProgBar';
+
 
 import './ActivityPage.css';
 import NumLine from './NumLine/NumLine';
-import { Hidden } from '@mui/material';
+
 
 export default function ActivityPage({score, setScore, clicks , setClicks , mismatch , setMismatch}) {
   
