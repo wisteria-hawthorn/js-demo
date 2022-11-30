@@ -80,9 +80,11 @@ export default function ActivityPage({score, setScore, clicks , setClicks , mism
         <div className='activity-background-image-daytime'/>
         <div className='activity-background-image-nighttime'/>
 
+        <div className='wider-text-container'>
         <div className='title-text-container'>
           <h1 className='the-activity-heading'>Number Line</h1>
           <h2 className='lets-go-h2'>LET'S GO!</h2>
+        </div>
         </div>
 
         <main className ="focus-area">
