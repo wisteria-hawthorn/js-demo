@@ -1,0 +1,146 @@
+.results-main-area {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    overflow: hidden;
+    background-image: url(../../nighttime-jungle.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.results-background-image-nighttime {
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    animation: none;
+}
+
+
+.well-done-h1 {
+
+    color:rgb(255, 255, 255);
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 2px 2px #E3A200;
+    -webkit-text-stroke: 0.001px black;
+
+    font-size: 10vh;
+
+}
+
+
+.the-card-div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 40vw;
+    height: 45vh;
+    
+
+    border-radius: 25px;
+    background-color: #edb0734d;
+
+}
+
+
+
+.h2-score {
+
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: medium;
+
+    font-size: 3vh;
+
+
+}
+
+
+.the-score-badge {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    height: 30vh;
+    width: 30vh;
+
+}
+
+
+.the-banana-itself {
+
+    position: absolute;
+    z-index: 7;
+    padding: 2.3%;
+    
+}
+
+
+.h3-percentage {
+
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(255, 255, 255);
+
+    font-size: 4vh;
+
+}
+
+
+.h3-encouragement {
+
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: small;
+
+    font-size: 4vh;
+
+}
+
+
+.button-container-results {
+
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 40vw;
+
+}
+
+
+.retry-button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 10vw;
+    font-size: 150%;
+
+}
+
+
+.map-button {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 13vw;
+    font-size: 150%;
+    
+}
+

@@ -1,0 +1,102 @@
+
+
+.woodStopButton1{
+    position:absolute; top:54%; left:12%;
+    cursor: pointer;
+    color:transparent;  
+    border:transparent;
+    background-color: transparent;
+    
+}
+
+
+.woodStopButton1:hover{
+    background-color: transparent;
+    color:transparent;
+}
+
+.woodButton{
+    width:100px;
+}
+
+
+
+
+
+.woodButton2{
+    position:absolute; top:20%; left:43%;
+    width:100px;
+    cursor: pointer;
+    color:transparent;  
+    border:transparent;
+    background-color: transparent;
+    
+}
+
+
+.woodButton2:hover{
+    background-color: transparent;
+    color:transparent;
+}
+
+
+
+.woodButton3{
+    position:absolute;top:47%; left:43%;
+    width:100px;
+    cursor: pointer;
+    color:transparent;  
+    border:transparent;
+    background-color: transparent;
+    
+}
+
+
+.woodButton3:hover{
+    background-color: transparent;
+    color:transparent;
+}
+
+
+.woodButton4{
+    position:absolute; top:62%; left:51%;
+    width:100px;
+    cursor: pointer;
+    color:transparent;  
+    border:transparent;
+    background-color: transparent;
+    
+}
+
+
+.woodButton4:hover{
+    background-color: transparent;
+    color:transparent;
+}
+
+.woodButton5{
+    position:absolute; top:47%; left:71%;
+    width:100px;
+    cursor: pointer;
+    color:transparent;  
+    border:transparent;
+    background-color: transparent;
+    
+}
+
+
+.woodButton5:hover{
+    background-color: transparent;
+    color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+

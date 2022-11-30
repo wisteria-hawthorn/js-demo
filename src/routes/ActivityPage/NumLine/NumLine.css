@@ -1,0 +1,39 @@
+.input-border {
+
+    background-color: #e9b91e;
+    border: solid #1900ff7c 3px;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.num-input {
+
+    width: 100%;
+
+}
+
+
+.the-countdown-text {
+
+    color:#ffffff00;
+
+}
+
+
+.the-actual-line {
+
+background-color: #E3A200;
+width: 98%;
+padding: 5px;
+border-radius: 25px;
+    
+}
+
+
+.spacer-div {
+
+padding: 10px;
+
+
+}

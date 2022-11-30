@@ -1,0 +1,35 @@
+@import url('http://fonts.cdnfonts.com/css/oil-age-heiroglyphs');
+
+* {
+    margin: 0;
+}
+
+
+
+
+.ChildHomeButton{
+    position: absolute;
+    
+    bottom:-5%;
+    left: 20%;
+    cursor: pointer;
+    border: transparent;
+    background-color: transparent;
+    color:rgb(238, 244, 209);
+    font-size: 3em;
+    text-decoration: none;
+    font-family: 'Oil Age Heiroglyphs', sans-serif;
+      
+    
+}
+.hut{
+width:260px;
+}
+
+
+
+
+.ChildHomeButton:hover{
+    background-color: transparent;
+    
+}

@@ -1,0 +1,142 @@
+.activity-intro-background-image-daytime {
+
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    animation: none;
+
+}
+
+.main-area{
+
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  
+    overflow: hidden;
+    background-image: url(../../daytime-jungle.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.the-button-container{
+
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 10vh;
+    width: 70vw;
+
+}
+
+
+.start-button-intro {
+
+    display: flex;
+    padding: 25% 65%;
+    font-size: 150%;
+    text-decoration: none;
+
+}
+
+
+.back-button-intro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+    font-size: 130%;
+    text-decoration: none;
+
+
+}
+
+
+.the-card-div-intro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 55vw;
+    height: 30vw;
+    
+
+    border-radius: 25px;
+    background-color: #edca7365;
+
+}
+
+
+.the-activity-number {
+
+    font-size: 5vh;
+
+
+    font-family: 'Fredoka One', sans-serif;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+
+.activity-intro-h1 {
+
+    font-size: 10vh;
+
+
+    font-family: 'Fredoka One', sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px #E3A200;
+    -webkit-text-stroke: 0.001px black;
+
+}
+
+
+.activity-intro-h3 {
+
+    font-size: 4vh;
+
+    font-family: Quicksand, sans-serif;
+    color: #ffffff;
+
+    
+}
+
+.activity-intro-descr {
+
+    font-size: 3vh;
+
+    font-family: Quicksand, sans-serif;
+    color: #ffffff;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.activity-intro-ready {
+
+    font-size: 4vh;
+
+    font-family: Quicksand, sans-serif;
+    color: #ffffff;
+
+}
+
